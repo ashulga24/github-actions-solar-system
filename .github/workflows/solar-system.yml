@@ -55,7 +55,7 @@ jobs:
         - name: Install NodeJS dependencies
           run: npm install
 
-        - name: Run Code Coverage tests
+        - name: Run Code-coverage command
           run: npm run code-coverage
           continue-on-error: true
 
